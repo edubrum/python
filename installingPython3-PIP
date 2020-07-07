@@ -1,0 +1,10 @@
+#download the python tar.gz then
+#!/bin/bash
+
+tar -xvzf Python-3.8.3.tar.xz
+cd Downloads/Python-3.8.3/
+./configure
+python3
+sudo apt-get install python3-pip
+sudo pip3 install pyperclip
+
