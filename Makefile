@@ -1,4 +1,4 @@
-	
+
 all:
 	@echo "Executing exIf.py"
 	@echo " "
@@ -35,6 +35,11 @@ all:
 	python3 exGuess.py
 	@echo "-----------------------"
 	@echo " "
+	@echo "Executing exList.py"
+	@echo " "
+	python3 exList.py
+	@echo "-----------------------"
+	@echo " "
 	
-install: 
+install:
 	@bash installingPython3-PIP
