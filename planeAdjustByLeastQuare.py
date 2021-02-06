@@ -7,8 +7,8 @@ x = y = t = []
 #prepare matrix coeficients
 def sum():
     for i in range(len(y)):
-        xSquare += (x[i])²
-        tSquare += (t[i])²
+        xSquare += (x[i])^2
+        tSquare += (t[i])^2
         xt = x[i]*t[i]
         xy = x[i]*y[i]
         ty = t[i]*y[i]
@@ -20,7 +20,7 @@ def calc():
     a = res[0]
     b = res[1]
 
-def plot():
+#def plot():
 
 def main():
     sum()
